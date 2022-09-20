@@ -13,6 +13,31 @@
 }
 
 body {
+  min-height: 100vh;
   font-family: League Spartan;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container__top {
+  display: flex;
+}
+
+.main-article-container {
+  border: 1px solid black;
+  width: 50%;
+}
+
+.main-rating-container {
+}
+
+.rating-container {
+  display: flex;
 }
