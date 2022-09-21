@@ -130,3 +130,69 @@ body {
 .profile-status {
   color: var(--soft-pink);
 }
+
+@media only screen and (max-width: 500px) {
+  .main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 0;
+  }
+
+  .main-container__top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-article-container {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .rating-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-grayish-magenta);
+    font-weight: 700;
+    color: var(--very-dark-magenta);
+    height: 3.125rem;
+    width: 95%;
+    margin-top: 0.9375rem;
+    padding-left: 0rem;
+    border-radius: 0.625rem;
+  }
+
+  .main-rating-container {
+    padding-top: 0rem;
+    width: 100%;
+    padding-left: 0rem;
+  }
+
+  .rating-container-middle {
+    margin-left: 0rem;
+  }
+
+  .rating-container-bottom {
+    margin-left: 0rem;
+  }
+
+  .main-container__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+  }
+
+  .card-container {
+    background-color: var(--very-dark-magenta);
+    width: 19.6875rem;
+    height: 12.5rem;
+    color: var(--light-grayish-magenta);
+    border-radius: 0.4375rem;
+    padding: 1.875rem;
+  }
+}
